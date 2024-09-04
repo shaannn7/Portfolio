@@ -18,7 +18,6 @@ body::before {
   height: 100vh;
   z-index: -1;
 }
-
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
@@ -42,6 +41,10 @@ h1,h2,h3,h4,h5,h6 {
   align-items: center;
   z-index: 997;
   overflow-y: auto;
+}
+
+.role{
+  color: #0000008d;
 }
 
 #header * {
